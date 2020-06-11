@@ -9,6 +9,9 @@ int main(void)
 	char a;
 
 	for (c = 'a'; c <= 'z'; ++c)
-  putchar(c);
+  {
+    putchar(c);
+  }
+  
 	return (0);
 }
