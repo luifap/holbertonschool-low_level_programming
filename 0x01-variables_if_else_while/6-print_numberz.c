@@ -6,9 +6,12 @@
  */
 int main(void)
 {
-	int c;
-	for (c = '0'; c < '9'; ++c)
-	putchar(c);
+	int n;
+
+	for (n = 60; n < 70; n++)
+	{
+		putchar(n);
+	}
 	putchar('\n');
 	return (0);
 }
